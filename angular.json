@@ -27,7 +27,11 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/app/component/header/header.component.css",
+              "src/app/component/body/body.component.css",
+              "src/app/component/card/card.component.css",
+              "src/app/component/footer/footer.component.css"
             ],
             "scripts": []
           },
@@ -85,12 +89,19 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
+                      "src/styles.css",
+                      "src/app/component/header/header.component.css",
+                      "src/app/component/body/body.component.css",
+                      "src/app/component/card/card.component.css",
+                      "src/app/component/footer/footer.component.css"
+                    ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
